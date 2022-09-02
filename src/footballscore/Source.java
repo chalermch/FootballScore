@@ -9,6 +9,7 @@ package footballscore;
  *
  * @author Admin
  */
-public class Notify {
-    
+public interface Source {
+    public void notifyObservers();
+    public void register(MyObserver observer);
 }

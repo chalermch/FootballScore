@@ -9,6 +9,6 @@ package footballscore;
  *
  * @author Admin
  */
-public class MyObserver {
-    
+public interface MyObserver {
+    public void update(Source o);
 }
